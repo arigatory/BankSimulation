@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BankSimulation.DataAccess
+﻿namespace BankSimulation.Model
 {
     public class Client
     {

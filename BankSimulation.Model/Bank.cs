@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BankSimulation.Model
+﻿namespace BankSimulation.Model
 {
     public class Bank
     {
