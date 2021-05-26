@@ -1,0 +1,38 @@
+﻿<Window x:Class="BankSimulation.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankSimulation.UI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+
+        </Grid.RowDefinitions>
+        
+        
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Stretch">
+            <Button Margin="10" Padding="10">Клиенты</Button>
+            <Button Margin="10" Padding="10">Организации</Button>
+        </StackPanel>
+
+
+        <DataGrid Grid.Row="1">
+            
+        </DataGrid>
+
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0 5 0 5" HorizontalAlignment="Left">
+            <TextBlock Margin="20 0" Text="Информация"/>
+            <TextBlock Margin="20 0" Text="Всего клиентов:100"/>
+            <TextBlock Margin="20 0" Text="Баланс банка: 1 000 000 р."/>
+        </StackPanel>
+        
+        
+    </Grid>
+</Window>
