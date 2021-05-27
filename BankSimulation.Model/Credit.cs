@@ -1,6 +1,6 @@
 ﻿namespace BankSimulation.Model
 {
-    class Credit : Product
+    public class Credit : Product
     {
     }
 }
