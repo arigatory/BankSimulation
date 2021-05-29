@@ -10,4 +10,14 @@
     <PackageReference Include="Bogus" Version="33.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+    <Folder Include="View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankSimulation.DataAccess\BankSimulation.DataAccess.csproj" />
+    <ProjectReference Include="..\BankSimulation.Model\BankSimulation.Model.csproj" />
+  </ItemGroup>
+
 </Project>
